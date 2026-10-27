@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #include<stdio.h>
 int main(){
 int nums[] = {2,7,11,15};
@@ -17,3 +18,24 @@ for(int i = 0; i<n ; i++)
     return 0;
 }
 
+=======
+#include<stdio.h>
+int main(){
+int nums[] = {2,7,11,15};
+int target = 9;
+int n = 4;
+for(int i = 0; i<n ; i++)
+{
+    for(int j = 1 ; j<n ; j++)
+    {
+        if(nums[i]+nums[j] == target)
+        {
+            printf("%d %d", i,j);
+        }
+    }
+}
+
+    return 0;
+}
+
+>>>>>>> Stashed changes
