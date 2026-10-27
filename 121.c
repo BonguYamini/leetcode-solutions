@@ -19,6 +19,6 @@ int main()
             }
         }
     }
-    printf("Maximum profit: %d\n", max);
+    printf("Maximum profit: %d", max);
     return 0;
 }
